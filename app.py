@@ -233,14 +233,14 @@ async def ui_handle_classify(file: Annotated[bytes, File()]):
                     ),
                     CardHeader(
                         Div(
-                            CardTitle("Did You Know?"),
+                            CardTitle("Did You Know?", cls="text-black"),
                             Lucide("info"),
                             cls="flex items-center justify-between",
                         ),
                         cls="text-lg font-bold",
                     ),
                     CardContent(
-                        P(f"{breed_fact}", cls="font-medium"),
+                        P(f"{breed_fact}", cls="font-medium text-black"),
                     ),
                     cls="mt-4 bg-blue-100 border border-blue-300 rounded-lg p-4",
                 ),
