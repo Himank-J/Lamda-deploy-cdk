@@ -1,4 +1,5 @@
 # ML Model Inferencing with AWS Lambda, AWS CDK and FastAPI
+[![Deploy to AWS Lambda](https://github.com/Himank-J/Lamda-deploy-cdk/actions/workflows/cdk-deploy.yml/badge.svg)](https://github.com/Himank-J/Lamda-deploy-cdk/actions/workflows/cdk-deploy.yml)
 
 This repository demonstrates the deployment of a classification model for inference using AWS Lambda, AWS CDK, and FastAPI, with a frontend powered by FastHTML.
 
